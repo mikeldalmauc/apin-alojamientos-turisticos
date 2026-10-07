@@ -23,7 +23,7 @@
 1. ¿Cuántas filas de datos y cuántas columnas tiene el archivo? ¿Qué día y a qué hora lo descargasteis?
    
 - 1500 filas de datos
-- 
+- **Fecha del archivo:** 30 de Septiembre a las 9am
 
 2. ¿Qué columnas están completamente vacías? Listádlas y decid cuántas son.
 3. . ¿Qué nombres de columna aparecen dos veces? ¿Por qué es un problema y cómo lo habéis resuelto?
@@ -38,10 +38,3 @@
 
 
 ## 2 - Ordena, filtra y busca 🔎
-
-Para ordenar he utilziado una vesiros
-
-as
-as
-
-
