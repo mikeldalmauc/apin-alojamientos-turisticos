@@ -1,0 +1,521 @@
+<div id="r2h4"
+  style="font-family: Arial,Helvetica,sans-serif; color: #1f2937; max-width: 900px; margin: 0 auto; line-height: 1.55; font-size: 15px;">
+  <div data-lang="es">
+    <div class="band"
+      style="background: #0f2438; color: #fff; font-weight: bold; padding: 12px 14px; margin: 16px 0;">
+      <strong>BLOQUE 05</strong> Prepara el presupuesto y un plan B · Horas 8–11
+      · 4 horas</div>
+    <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Plan de
+      trabajo de este bloque</h2>
+    <table
+      style="width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px;">
+      <tbody>
+        <tr>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            MIN</th>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            ACTIVIDAD</th>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            35</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Teoría: enlaces, suma, SI y porcentajes</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            55</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Construir el presupuesto principal</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            55</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Aplicar descuento y formato condicional</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            60</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Crear y ajustar Plan B</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            35</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Comparar, comprobar y entregar</td>
+        </tr>
+      </tbody>
+    </table>
+    <span class="tag"
+      style="display: inline-block; background: #16324f; color: white; font-size: 11px; font-weight: bold; padding: 4px 10px; border-radius: 3px; margin: 10px 0;">TEORÍA
+      4</span>
+    <div class="theory">
+      <div><span class="tag"
+          style="display: inline-block; background: #16324f; color: white; font-size: 11px; font-weight: bold; padding: 4px 10px; border-radius: 3px; margin: 10px 0;">Primero
+          comprende · Después practica</span>
+        <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Teoría:
+          sumar, decidir y aplicar descuentos</h2>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">1 ·
+          Enlazar dos hojas</h3>
+        <p>Un enlace permite utilizar una celda de otra hoja. Si cambia el
+          precio original, el presupuesto lo recoge. En Presupuesto!B2 escribe
+          =, pulsa la pestaña Selección, haz clic en I2 si has elegido la
+          primera opción y pulsa Intro. Verás una referencia como <code
+            style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">='Selección'!I2</code>.
+          El signo ! separa el nombre de la hoja de la celda. Si elegiste otra
+          fila, selecciona esa celda.</p>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">2 ·
+          Sumar gastos y calcular lo que sobra</h3>
+        <ol>
+          <li>Introduce los conceptos y los importes de la tabla de la misión en
+            A1:B6.</li>
+          <li>En B7 escribe <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=SUMA(B2:B6)</code>.
+            Suma los cinco gastos, desde B2 hasta B6.</li>
+          <li>En B8 escribe 200. Es el límite por persona.</li>
+          <li>En B9 escribe <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B8-B7</code>.
+            Resta el gasto al límite.</li>
+          <li>Si el resultado es positivo, sobra dinero; si es cero, has gastado
+            justo el límite; si es negativo, te has pasado.</li>
+        </ol>
+        <div class="note"
+          style="border: 1px solid #16324f; border-left: 5px solid #16324f; background: #f4f6f8; padding: 12px 14px; margin: 18px 0;">
+          Escribe la suma en B7, fuera del rango B2:B6. <code
+            style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=SUMA(B2:B7)</code>
+          escrita en B7 se incluiría a sí misma y produciría una referencia
+          circular.</div>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">3 ·
+          Entender SI en tres partes</h3>
+        <p><code
+            style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=SI(B7&lt;=B8;"Podemos
+            ir";"Hay que ajustar")</code></p>
+        <table
+          style="width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px;">
+          <tbody>
+            <tr>
+              <th
+                style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+                Parte</th>
+              <th
+                style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+                Significado</th>
+            </tr>
+            <tr>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+                B7&lt;=B8</td>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+                Pregunta: ¿el total es menor o igual que el límite?</td>
+            </tr>
+            <tr>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+                "Podemos ir"</td>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+                Texto que aparece cuando la respuesta es sí.</td>
+            </tr>
+            <tr>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+                "Hay que ajustar"</td>
+              <td
+                style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+                Texto que aparece cuando la respuesta es no.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Los puntos y coma separan las tres partes. Los textos van entre
+          comillas rectas. <strong>&lt;</strong> significa menor;
+          <strong>&gt;</strong>, mayor; <strong>&lt;=</strong>, menor o igual.
+          Escribe el SI en B10 después de poner «Estado» en A10.</p>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">4 ·
+          Pintar el saldo automáticamente</h3>
+        <ol>
+          <li>Selecciona B9. Ve a <strong>Inicio → Formato condicional → Nueva
+              regla</strong>.</li>
+          <li>Elige aplicar formato únicamente a las celdas que contengan.
+            Configura <strong>Valor de la celda → menor que → 0</strong>.</li>
+          <li>En Formato, elige relleno rojo y acepta.</li>
+          <li>Crea otra regla para B9: <strong>Valor de la celda → mayor o igual
+              que → 0</strong>, con relleno verde.</li>
+          <li>Cambia temporalmente un gasto para superar 200 € y comprueba el
+            cambio de color. Restaura el dato.</li>
+        </ol>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">5 · Qué
+          significa un 10 %</h3>
+        <p>10 % significa 10 de cada 100. Para calcular un descuento,
+          multiplicamos el precio por ese porcentaje: 56 × 10 % = 5,60 € de
+          ahorro. Después restamos: 56 − 5,60 = 50,40 €. <strong>El descuento y
+            el precio final son cantidades distintas.</strong></p>
+        <ol>
+          <li>Escribe <strong>10%</strong> en E1, incluyendo el símbolo %. No
+            escribas solo 10.</li>
+          <li>En E2 escribe <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B2*E1</code>:
+            calcula el ahorro.</li>
+          <li>En E3 escribe <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B2-E2</code>:
+            calcula el alojamiento rebajado.</li>
+          <li>En E4 escribe <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B7-E2</code>:
+            descuenta ese ahorro del total del viaje.</li>
+        </ol>
+        <details>
+          <summary>Comprueba: si el alojamiento cuesta 100 €, ¿cuál es el ahorro
+            del 10 %?</summary>
+          <p>Se ahorran 10 € y el alojamiento queda en 90 €. Los otros gastos no
+            cambian.</p>
+        </details>
+        <hr>
+        <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">Ahora
+          realiza la misión 05</h3>
+      </div>
+    </div>
+    <div><span class="tag"
+        style="display: inline-block; background: #16324f; color: white; font-size: 11px; font-weight: bold; padding: 4px 10px; border-radius: 3px; margin: 10px 0;">05
+        · El dinero alcanza… ¿o no?</span>
+      <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Un
+        presupuesto con semáforo</h2>
+      <p>En <strong>Presupuesto</strong>, cread esta tabla en A1:B9.
+        <strong>Todos los importes son por persona y para el viaje
+          completo</strong>. En B2, escribid = y haced clic en el importe de la
+        columna I del alojamiento elegido; pulsad Intro. Así queda enlazado, sin
+        copiar el resultado a mano.</p>
+    </div>
+    <table
+      style="width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px;">
+      <tbody>
+        <tr>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            Celda / Gelaxka</th>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            A · Concepto / Kontzeptua</th>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            B · € por persona / € pertsonako</th>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            1</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Concepto / Kontzeptua</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            € por persona / € pertsonako</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            2</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Alojamiento / Ostatua</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">='Selección'!I2</code>
+            (si elegís fila 2 / 2. errenkada hautatuz gero)</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            3</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Transporte / Garraioa</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            25</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            4</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Comidas / Otorduak</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            40</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            5</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Actividad / Jarduera</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            18</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            6</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Imprevistos / Ezustekoak</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            10</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            7</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Total / Guztira</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=SUMA(B2:B6)</code>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            8</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Límite / Muga</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            200</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            9</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Dinero restante / Soberako dirua</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            <code
+              style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B8-B7</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">Una
+        pregunta con SI</h3>
+      <p>En A10 escribid «Estado» y en B10: <code
+          style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=SI(B7&lt;=B8;"Podemos
+          ir";"Hay que ajustar")</code>. Se lee: si el total es menor o igual
+        que el límite, podemos ir; si no, tenemos que cambiar algo. Aplicad
+        formato condicional a B9: rojo si es menor que cero, verde si es mayor o
+        igual que cero.</p>
+      <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">Tarjeta
+        sorpresa: descuento del 10 %</h3>
+      <p>En D1:E4, cread: D1 «Descuento», E1 <strong>10%</strong>; D2 «Ahorro en
+        alojamiento», E2 <code
+          style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B2*E1</code>;
+        D3 «Alojamiento rebajado», E3 <code
+          style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B2-E2</code>;
+        D4 «Nuevo total del viaje», E4 <code
+          style="font-family: Consolas,monospace; background: #f0f3f6; overflow-wrap: anywhere;">=B7-E2</code>.
+        El descuento afecta solo al alojamiento. No se descuentan transporte,
+        comidas ni actividades.</p>
+      <h3 style="color: #0f2438; font-size: 18px; margin: 20px 0 8px;">Desafío:
+        cambian los planes</h3>
+      <p>Cambiad la actividad de 18 € a 80 €. Observad B7, B9 y B10. Después
+        elegid una actividad de 0 €, 18 € o 35 € y un alojamiento para cumplir
+        el límite. Anotad qué decisión habéis tomado. No reduzcáis
+        artificialmente otros costes para que cuadre.</p>
+    </div>
+    <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">
+      Mini-práctica · Salvad la escapada con un plan B</h2>
+    <p>Una alternativa utiliza las mismas fórmulas y cambia las decisiones.
+      Conservar dos hojas permite compararlas sin perder el plan inicial.</p>
+    <table
+      style="width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px;">
+      <tbody>
+        <tr>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            PASO</th>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            QUÉ HACER</th>
+          <th
+            style="background: #16324f; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+            DÓNDE / CÓMO</th>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            1</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Conservad el presupuesto principal con la actividad de 18 €.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Devolved la prueba de 80 € a 18 €.</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            2</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Duplicad la hoja Presupuesto.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Clic derecho en su pestaña → Mover o copiar → Crear una copia →
+            Aceptar. Renombrad la copia Plan B.</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            3</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            En Plan B, cambiad la actividad a 35 € y el límite a 170 €.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            B5 = 35; B8 = 170. Conservad transporte, comidas e imprevistos.</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            4</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Probad las opciones hasta cumplir el nuevo límite antes del
+            descuento; podéis volver a la inicial.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            En Plan B!B2 escribid =, haced clic en otra opción de
+            Selección!I2:I6 y pulsad Intro. No escribáis el importe a mano.</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            5</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            Verificad qué fórmulas usa la copia.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+            B7 suma sus propios gastos; B9 y B10 usan el límite de Plan B.
+            Revisad también E2:E4.</td>
+        </tr>
+        <tr>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            6</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Comparad y elegid.</td>
+          <td
+            style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+            Anotad en Respuestas qué plan recomendáis y dos razones.</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note"
+      style="border: 1px solid #16324f; border-left: 5px solid #16324f; background: #f4f6f8; padding: 12px 14px; margin: 18px 0;">
+      <strong>COMPROBACIÓN:</strong> con la primera opción (56 € por persona),
+      la actividad de 35 € da un total de 166 € antes del descuento y deja 4 €
+      de margen. El objetivo es entender y comprobar el presupuesto, no acertar
+      por ensayo sin explicarlo.</div>
+    <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Preguntas
+      de este bloque</h2>
+    <p>Escribid respuestas breves en Respuestas, con su número. Los cálculos
+      deben estar en las hojas indicadas; podéis señalar la celda donde se
+      comprueban.</p>
+    <div class="questions">
+      <table
+        style="width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px;">
+        <tbody>
+          <tr>
+            <th
+              style="background: #0b7285; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+              Nº</th>
+            <th
+              style="background: #0b7285; color: #fff; text-align: left; padding: 9px 12px; font-size: 12px;">
+              PREGUNTA</th>
+          </tr>
+          <tr>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+              4.1</td>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+              ¿Cuánto cuesta el plan principal y cuánto dinero sobra antes del
+              descuento?</td>
+          </tr>
+          <tr>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+              4.2</td>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top;">
+              ¿Cuánto se ahorra con el 10 % y cuál es el nuevo total?</td>
+          </tr>
+          <tr>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+              4.3</td>
+            <td
+              style="border: 1px solid #d7dde3; padding: 10px 12px; vertical-align: top; background: #f4f6f8;">
+              ¿Cómo habéis conseguido que Plan B cumpla 170 €? ¿Qué plan
+              recomendáis?</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Aplica en
+      tu libro · Qué debe estar hecho</h2>
+    <ul>
+      <li>Presupuesto enlaza el alojamiento y calcula total, saldo, SI y
+        descuento.</li>
+      <li>El color del saldo cambia con el resultado.</li>
+      <li>Plan B conserva las fórmulas y cumple su límite de 170 € antes del
+        descuento.</li>
+      <li>Las respuestas 4.1–4.3 comparan los planes sin mezclar sus límites.
+      </li>
+    </ul>
+    <h2 style="color: #0f2438; font-size: 21px; margin: 24px 0 8px;">Qué se
+      comprueba en esta entrega</h2>
+    <div class="goal"
+      style="border: 1px solid #16324f; border-left: 5px solid #16324f; background: #f4f6f8; padding: 12px 14px; margin: 18px 0;">
+      Se revisa el checklist anterior y que cada integrante pueda mostrar una
+      operación del bloque. Los errores se corrigen antes de continuar; las
+      funciones avanzadas no son obligatorias.</div>
+    <div class="note"
+      style="border: 1px solid #16324f; border-left: 5px solid #16324f; background: #f4f6f8; padding: 12px 14px; margin: 18px 0;">
+      <strong>ENTREGA</strong>
+      <p>CÓMO SE ENTREGA: subid el Excel completo como
+        <strong>Reto2_GrupoXX_05.xlsx</strong>, con todas las hojas anteriores y
+        las nuevas de este bloque. No hace falta otro documento. Apto / No apto,
+        con posibilidad de corregir y volver a entregar.</p>
+    </div>
+    <div class="footer">CIFP Zornotza LHII · Aplicaciones Ofimáticas · Reto 2 ·
+      05 / 07</div>
+  </div>
+</div>
