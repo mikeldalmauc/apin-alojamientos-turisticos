@@ -6,6 +6,7 @@ Los datos reales nunca vienen limpios. Vienen con columnas vacías, nombres repe
 
 ## Antes de empezar: cómo se llama cada cosa
 
+
 ![Partes de una hoja de cálculo](img/anatomia-de-la-hoja.png)
 
 *A. **Cuadro de nombre**: dice en qué celda estás (B3). B. **Barra de fórmulas**: muestra lo que hay de verdad en la celda; si es una fórmula, la ves aquí aunque la celda enseñe el resultado. C. **Columna**: vertical, con letra. D. **Fila**: horizontal, con número. E. **Celda activa**: la que tiene el borde azul, el cruce de una columna y una fila (B3 = columna B, fila 3). F. **Pestañas de hojas**: un mismo archivo puede tener muchas hojas; con el + añades otra.*
