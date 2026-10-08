@@ -45,7 +45,7 @@ Técnicas que vas a necesitar:
 
 ![El mismo logo sobre la taza en Normal, Multiplicar, Superponer y Multiplicar con Deformar](img/logo-modos-de-fusion.jpg)
 
-*El mismo logo sobre la taza. En **Normal** parece una pegatina: tapa las sombras del objeto. En **Multiplicar** el blanco del logo desaparece y las sombras de la taza se ven a través del color, como si estuviera impreso. **Superponer** sobre un objeto blanco casi no se ve: solo tiene sentido en superficies con textura o color. A la derecha, Multiplicar más **Deformar** para que el logo se estreche hacia los lados siguiendo la curva de la taza. Todos los modos están explicados en la práctica de [modos de fusión](../modos%20de%20capa/modos%20de%20capa.md), y las transformaciones en la de [transformar](../transformar/transform.md).*
+*El mismo logo sobre la taza. En **Normal** parece una pegatina: tapa las sombras del objeto. En **Multiplicar** el blanco del logo desaparece y las sombras de la taza se ven a través del color, como si estuviera impreso. **Superponer** sobre un objeto blanco casi no se ve: solo tiene sentido en superficies con textura o color. A la derecha, Multiplicar más **Deformar** para que el logo se estreche hacia los lados siguiendo la curva de la taza. Todos los modos están explicados en la práctica de *modos de fusión*, y las transformaciones en la de *transformar*.*
 
 ### 3. Crea la composición
 

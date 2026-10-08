@@ -43,7 +43,7 @@ Para conseguirlo, sobre cada elemento lejano y con máscara de recorte: una capa
 ### Luz y sombras
 
 - Mira de dónde viene la luz en el paisaje base (fíjate en las sombras que ya existen) y elige fotos de construcciones iluminadas desde el mismo lado. Si una viene al revés, voltéala en horizontal.
-- Todo lo que apoya en el suelo tiene **sombra de contacto** (pequeña y oscura, justo debajo) y, si hay sol, **sombra proyectada** hacia el lado contrario de la luz. Píntalas en una capa en modo *Multiplicar*, como se explica en la práctica de [modos de fusión](../modos%20de%20capa/modos%20de%20capa.md).
+- Todo lo que apoya en el suelo tiene **sombra de contacto** (pequeña y oscura, justo debajo) y, si hay sol, **sombra proyectada** hacia el lado contrario de la luz. Píntalas en una capa en modo *Multiplicar*, como se explica en la práctica de *modos de fusión*.
 - Las luces (ventanas encendidas, farolas, reflejos) van en capas en modo *Trama* o *Sobreexponer color*.
 
 ## Cómo hacerlo

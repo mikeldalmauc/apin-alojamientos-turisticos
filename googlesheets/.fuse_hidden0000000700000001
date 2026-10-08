@@ -7,7 +7,6 @@ use MIME::Base64;
 use File::Basename;
 
 my ($in, $out, $lang, $footer) = @ARGV;
-use Encode qw(decode); $footer = decode("UTF-8", $footer) if defined $footer;
 $lang ||= 'es';
 open my $fh, '<:encoding(UTF-8)', $in or die "No puedo abrir $in: $!";
 my @lines = <$fh>; close $fh; chomp @lines; s/\r$// for @lines;
