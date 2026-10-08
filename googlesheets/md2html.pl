@@ -30,7 +30,18 @@ my %S = (
   a     => 'color: #1a73e8;',
   bq    => 'border-left: 5px solid #9aa0a6; background: #f4f6f8; padding: 10px 14px; margin: 18px 0; color: #3c4043;',
   foot  => 'margin-top: 36px; padding-top: 10px; border-top: 1px solid #d7dde3; color: #5f6368; font-size: 12px;',
+  pre   => "background: #f1f3f4; padding: 10px 12px; border-radius: 4px; font-family: Consolas, 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; word-break: break-all; margin: 8px 0;",
 );
+
+my @out; my $i = 0; my $title = '';
+
+# bloque de código con vallas ```; $i apunta a la línea de apertura
+sub fenced {
+  my @code; $i++;
+  while ($i < @lines && $lines[$i] !~ /^\s*```/) { my $c = $lines[$i]; $c =~ s/^\s{0,2}//; push @code, $c; $i++; }
+  $i++ if $i < @lines;
+  return "<pre style=\"$S{pre}\">" . esc(join "\n", @code) . '</pre>';
+}
 my %CALL = (TIP => ['#188038','#e6f4ea'], NOTE => ['#1a73e8','#e8f0fe'], WARNING => ['#d93025','#fce8e6'], IMPORTANT => ['#9334e6','#f3e8fd'], CAUTION => ['#d93025','#fce8e6']);
 my %LAB = $lang eq 'eu'
   ? (TIP=>'Aholkua', NOTE=>'Oharra', WARNING=>'Kontuz', IMPORTANT=>'Garrantzitsua', CAUTION=>'Kontuz')
@@ -91,8 +102,6 @@ sub table {
   return $html . '</table>';
 }
 
-my @out; my $i = 0; my $title = '';
-
 sub parse_list {
   my $html = ''; my @stack;
   while ($i < @lines && $lines[$i] =~ /^(\s*)([-*]|\d+\.)\s+(.*)$/) {
@@ -106,7 +115,12 @@ sub parse_list {
     else { $html .= "<$type style=\"$S{$type}\">"; push @stack, [$type, $ind]; }
     $html .= "<li style=\"$S{li}\">$pre" . inline($txt);
     $i++;
-    while ($i < @lines && $lines[$i] =~ /^\s{2,}(?![-*]\s|\d+\.\s)(\S.*)$/) { $html .= ' ' . inline($1); $i++; }
+    while ($i < @lines) {
+      if ($lines[$i] =~ /^\s*$/ && $i+1 < @lines && $lines[$i+1] =~ /^\s{2,}```/) { $i++; next; }
+      if ($lines[$i] =~ /^\s{2,}```/) { $html .= fenced(); next; }
+      last unless $lines[$i] =~ /^\s{2,}(?![-*]\s|\d+\.\s)(\S.*)$/;
+      $html .= ' ' . inline($1); $i++;
+    }
   }
   while (@stack) { my $s = pop @stack; $html .= "</li></$s->[0]>"; }
   return $html;
@@ -135,10 +149,11 @@ while ($i < @lines) {
     my @body; while ($i < @lines && $lines[$i] =~ /^>\s?(.*)$/) { push @body, $1; $i++; }
     push @out, "<blockquote style=\"$S{bq}\">" . inline(join ' ', grep { length } @body) . '</blockquote>'; next;
   }
+  if ($l =~ /^\s*```/) { push @out, fenced(); next; }
   if ($l =~ /^\s*([-*]|\d+\.)\s+/) { push @out, parse_list(); next; }
   if ($l =~ /^-{3,}\s*$/) { push @out, '<hr style="border: 0; border-top: 1px solid #d7dde3; margin: 20px 0;">'; $i++; next; }
   my @p;
-  while ($i < @lines && $lines[$i] !~ /^\s*$/ && $lines[$i] !~ /^(#{1,3}\s|\s*\||>|!\[|\s*[-*]\s|\s*\d+\.\s)/) { push @p, $lines[$i]; $i++; }
+  while ($i < @lines && $lines[$i] !~ /^\s*$/ && $lines[$i] !~ /^(#{1,3}\s|\s*\||>|!\[|\s*[-*]\s|\s*\d+\.\s|\s*```)/) { push @p, $lines[$i]; $i++; }
   my $txt = inline(join ' ', @p);
   if ($txt =~ /^<em>.*<\/em>$/s) { push @out, "<p style=\"$S{cap}\">$txt</p>"; }
   else { push @out, "<p style=\"$S{p}\">$txt</p>"; }
