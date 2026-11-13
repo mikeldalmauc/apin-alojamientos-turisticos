@@ -56,7 +56,7 @@ Zuen bertsioak klip konposaturik ez badu, lan egin beti bi klipak batera hautatu
 3. Hautatu soberan dagoen zatia eta sakatu `Supr`. Bideoaren gainerakoa bere kabuz elkartzen da.
 
 - Moztu berdin akatsak, errepikatutako esaldiak eta "eeeh"-ak. Normalena grabatutakoaren % 20 eta % 40 artean kentzea da.
-- Utzi gutxieneko arnasaldi bat esaldien artean: hitzari itsatsita mozten baduzue, ahotsak presaka dirudi.
+- Utzi gutxieneko arnasaldi bat esaldien artean: hitzari itsatsita mozten baduzue, ahotsak presaka ari dela dirudi.
 - Eskuzko urrats bat luzea eta aspergarria bada (zortzi hari zuritu, torlojuak estutu), ez moztu: azkartu. Klipa hautatuta, `Velocidad` `2x` edo `4x` baliora.
 - Mozketa bakoitzak jauzi txiki bat sortzen du irudian. Plano zenitalean ia ez da nabaritzen; pantaila osoko plano frontal batean, bai.
 

@@ -1,6 +1,6 @@
 # Grabatu bi kamerarekin: plano frontala eta plano zenitala
 
-"Eskuzko" tutorialak (ekipo bat muntatu, kable bat krinpatu, marraztu, sukaldatu) ia beti bi kamerarekin grabatzen dira: **zenitala**, mahaiari goitik begiratzen diona eta eskuek egiten dutena erakusten duena, eta **frontala**, zu azaltzen erakusten zaituena. Praktika honetan tutorial labur bat planifikatu eta grabatuko duzue bi kamerekin batera, mugikorrean **bertikalean** ikusteko pentsatuta, eta CapCuten egiaztatuko duzue bi planoak bat datozela.
+"Eskuzko" tutorialak (ekipo bat muntatu, kable bat krinpatu, marraztu, sukaldatu) ia beti bi kamerarekin grabatzen dira: **zenitala**, mahaiari goitik begiratzen diona eta eskuek egiten dutena erakusten duena, eta **frontala**, zuek azaltzen erakusten zaituztena. Praktika honetan tutorial labur bat planifikatu eta grabatuko duzue bi kamerekin batera, mugikorrean **bertikalean** ikusteko pentsatuta, eta CapCuten egiaztatuko duzue bi planoak bat datozela.
 
 Muntaketa osoa hurrengo praktikan egingo duzue, **material honekin berarekin**; beraz, merezi du kontuz grabatzea.
 

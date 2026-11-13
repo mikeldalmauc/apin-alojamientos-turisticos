@@ -92,7 +92,7 @@ Photoshopeko geruza-maskarek bezala funtzionatzen du: maskararen zuria ikusi egi
 
 Irudi txarreko tutorial bat jasan daiteke; soinu txarrekoa, ez.
 
-- Hitz egin grabazioan hitz egingo duzun bezala eta begiratu `Mic/Aux` kanalaren neurgailuari. Doitu irristailuarekin eta, batez ere, distantziarekin: mikrofonoa ahotik arra batera.
+- Hitz egin grabazioan hitz egingo duzun bezala eta begiratu `Mic/Aux` kanalaren neurgailuari. Doitu irristailuarekin eta, batez ere, distantziarekin: mikrofonoa ahotik arra betera.
 - `Mic/Aux` kanalaren hiru puntuetan ireki `Filtros` eta gehitu `Supresión de ruido`.
 - Isildu mugikorra eta itxi soinuekin abisatzen duten aplikazioak.
 
